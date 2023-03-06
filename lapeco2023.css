@@ -1,0 +1,73 @@
+
+
+
+.banner-box {
+    height: 220px;
+    width: 800px;
+    margin: auto;
+}
+
+.end-box {
+  background-color: rgb(110, 167, 216);
+  height: 10px;
+  width: 800px;
+  margin:auto;
+}
+
+.banner {
+  width: 800px;
+}
+
+.btn-group {
+    width: 800px;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.btn-group button {
+  background-color: rgb(10, 107, 172);
+  color:white;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color .2s;
+  box-shadow: 3px 3px 3px rgb(136, 136, 136);
+}
+
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #0f4d9e;
+}
+
+.btn-group button:active{
+  background-color: rgb(19, 19, 66);
+}
+.text-header {
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 0px;
+margin-top: 40px;
+}
+
+p {
+    font-family: Georgia;
+    color: rgb(11, 11, 107);
+    font-size: 20px;
+    font-weight: normal;
+    width: 600px;
+    line-height: 27px;
+    margin-top: 30px;
+    width: 800px;
+    margin-inline: auto;
+}
+
